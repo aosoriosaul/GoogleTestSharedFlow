@@ -1,0 +1,16 @@
+<SharedFlowBundle revision="1" name="SF-Acxiom-JWT-Ext">
+    <DisplayName></DisplayName>
+    <Description>Authentication</Description>
+    <CreatedAt>1697063257334</CreatedAt>
+    <LastModifiedAt>1697064103546</LastModifiedAt>
+    <Policies>
+        <Policy>KVM-JWT</Policy>
+        <Policy>SC-Send-Credentials</Policy>
+        <Policy>EV-ObtainJWTAccess</Policy>
+        <Policy>AM-SetHeaders</Policy>
+    </Policies>
+    <SharedFlows>
+        <SharedFlow>default</SharedFlow>
+    </SharedFlows>
+    <subType>SharedFlow</subType>
+</SharedFlowBundle>

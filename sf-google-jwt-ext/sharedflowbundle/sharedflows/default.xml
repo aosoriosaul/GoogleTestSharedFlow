@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SharedFlow name="default">
+    <Step>
+        <Name>KVM-JWT</Name>
+    </Step>
+    <Step>
+        <Name>SC-Send-Credentials</Name>
+    </Step>
+    <Step>
+        <Name>EV-ObtainJWTAccess</Name>
+    </Step>
+    <Step>
+        <Name>AM-SetHeaders</Name>
+    </Step>
+</SharedFlow>
